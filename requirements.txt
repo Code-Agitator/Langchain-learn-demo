@@ -1,0 +1,9 @@
+fastapi
+langchain-core
+langchain
+langchain-openai
+langchain-community
+
+langserve[all]
+
+langchain-chroma

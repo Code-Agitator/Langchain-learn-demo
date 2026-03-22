@@ -1,0 +1,7 @@
+POST http://127.0.0.1:8088/chain/invoke
+Content-Type: application/json
+
+{"input":{"language":"日语","text":"为什么要吃粑粑?"}}
+
+###
+
