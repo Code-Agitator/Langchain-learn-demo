@@ -7,3 +7,4 @@ langchain-community
 langserve[all]
 
 langchain-chroma
+langgraph
