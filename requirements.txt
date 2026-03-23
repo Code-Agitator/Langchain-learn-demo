@@ -2,6 +2,7 @@ beautifulsoup4
 langchain-classic
 langchain-text-splitters
 fastapi
+sqlalchemy
 langchain-core
 langchain
 langchain-openai
@@ -11,3 +12,5 @@ langserve[all]
 
 langchain-chroma
 langgraph
+
+pymysql
