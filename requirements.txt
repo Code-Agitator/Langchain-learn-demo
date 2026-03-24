@@ -19,3 +19,6 @@ pymysql
 youtube-transcript-api
 pytube
 
+
+langchain_experimental
+
