@@ -1,3 +1,4 @@
+pydantic
 beautifulsoup4
 langchain-classic
 langchain-text-splitters
@@ -14,3 +15,7 @@ langchain-chroma
 langgraph
 
 pymysql
+
+youtube-transcript-api
+pytube
+
