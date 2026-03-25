@@ -22,3 +22,5 @@ pytube
 
 langchain_experimental
 
+tiktoken
+
