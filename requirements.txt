@@ -1,3 +1,4 @@
+langchain-milvus
 pydantic
 beautifulsoup4
 langchain-classic
@@ -13,6 +14,7 @@ langserve[all]
 
 langchain-chroma
 langgraph
+langchain_huggingface
 
 pymysql
 
@@ -23,4 +25,4 @@ pytube
 langchain_experimental
 
 tiktoken
-
+pymilvus
