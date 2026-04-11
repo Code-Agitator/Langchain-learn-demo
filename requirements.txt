@@ -25,4 +25,4 @@ pytube
 langchain_experimental
 
 tiktoken
-pymilvus
+pymilvus==2.5.18
