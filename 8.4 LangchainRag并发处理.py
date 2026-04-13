@@ -19,8 +19,6 @@ model = HuggingFaceEmbeddings(
 )
 
 
-
-
 def file_parser_process(dir_path: str, output_queue: Queue, batch_size: int = 20):
     """进程1：解析目录下所有md文件并分批放入队列"""
     log.info(f"解析进程开始扫描目录: {dir_path}")
@@ -66,8 +64,7 @@ def milvus_writer_process(input_queue: Queue):
     """进程2：从队列读取并写入Milvus"""
     log.info("Milvus写入进程启动...")
 
-
-    mv = MilvusVectorSave()
+    mv = MilvusVectorSave(embedding_model=model)
     mv.create_connection()
     total_count = 0
     while True:
@@ -85,6 +82,7 @@ def milvus_writer_process(input_queue: Queue):
             log.exception(e)
 
     log.info(f"写入进程结束，总计写入 {total_count} 个文档")
+
 
 if __name__ == '__main__':
     # 配置参数

@@ -7,7 +7,7 @@ from pymilvus import MilvusClient, DataType, Function, FunctionType
 
 MILVUS_URI = 'http://127.0.0.1:19530'
 
-COLLECTION_NAME = 't_collection01'
+COLLECTION_NAME: str = 't_collection01'
 
 
 class MilvusVectorSave:
