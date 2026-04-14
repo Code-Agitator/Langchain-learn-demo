@@ -1,3 +1,4 @@
+openai
 langchain-milvus
 pydantic
 beautifulsoup4
