@@ -27,3 +27,5 @@ langchain_experimental
 
 tiktoken
 pymilvus==2.5.18
+aiosqlite
+gradio
